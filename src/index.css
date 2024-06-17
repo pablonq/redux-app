@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img{
+  width: 100%;
+  vertical-align: top;
+}
+a{
+  font-size: 0.8rem;
+  color: #000;
+  text-decoration: none;
+}
+.usuario{
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px dotted black;
+  box-sizing: border-box;
+  width: 49.5%;
+}
+.foto{
+  border: 1px solid gray;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 170px;
+  
+  margin-right: 20px;
+}
+.datos{
+flex: 1;
+}
+.botones{
+width: 110px;
+}
+.presentacion{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+button{
+  padding: 6px 12px;
+  outline: none;
+  border-radius: 3px;
+  width: 98px; 
+  margin: 4px;
+  cursor: pointer;
+}
+.rojo{
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+.verde{
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+.rojo:hover{
+  background-color: white;
+  color: red;
+}
+.verde:hover{
+  background-color:white;
+  color: green;
+  
+}
