@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Candidato = ({valor, onBuscarUno, index}) => {
+const Candidato = ({valor, onBuscarUno, index, onGuardarUno}) => {
   return (
     <>
       <div className='usuario'>
@@ -16,7 +16,7 @@ const Candidato = ({valor, onBuscarUno, index}) => {
         </div>
         <div  className='botones'>
         <button onClick={()=>onBuscarUno(index)} className='rojo'>Ocultar</button>
-        <button className='verde'>Guardar</button>
+        <button onClick={()=>onGuardarUno(valor,index)} className='verde'>Guardar</button>
         </div>
       </div>
     </>
